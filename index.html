@@ -22,7 +22,7 @@
             <label for="password">Введите пароль: <input type="password" placeholder="Пароль" id="password" size="25"></label>
             </div>
             <div class="button_">
-                <a href="#" class="shine-button">Вход</a>
+                <a href="#" class="shine-button" onclick="myFunc()">Вход</a>
             </div>
         </form>
     </div>
@@ -34,5 +34,22 @@
         </div>
     </footer>
 </div>
+<script>
+
+	function myFunc(){
+	var lg=document.getElementById("login").value;
+	var ps=document.getElementById("password").value;
+	
+		if(lg == "hasan2001" && ps =="2001"){
+			window.location.href = "https://giphy.com/gifs/uefa-goal-cristiano-gBkbmnBw4ml0fO5fSH/fullscreen";
+		}else if(lg == "hasan2001" || ps =="2001"){
+			alert('Неверный логин или пароль!');
+		}else{
+			alert('Неверный логин или пароль!');
+		}		
+	}
+
+
+</script>
 </body>
 </html>

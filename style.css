@@ -8,8 +8,7 @@
 
 .container{
 	margin:0 auto;
-	width: 1200px;
-	
+	width: 1000px;
 }
 
 header{
@@ -20,7 +19,7 @@ header{
 
 .logo{
     margin-right:50px;
-    margin-left:450px;
+    margin-left:350px;
 }
 
 .logo img{
